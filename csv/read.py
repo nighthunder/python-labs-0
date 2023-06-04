@@ -12,3 +12,5 @@ for line in lines:
     degree = person_data[3]
 
     print(f"{name.title()} is {age}, studying {degree.capitalize()} at {university.title()}")
+
+    sample_csv_file = ",".join(["Rolf", "has","35","years old."]) # concatenating strings
